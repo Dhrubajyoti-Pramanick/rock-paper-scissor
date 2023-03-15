@@ -1,0 +1,25 @@
+.pic {
+    max-width: 10%;
+}
+#pic {
+    max-width: 25%;
+}
+#pic2 {
+    max-width: 100%;
+}
+.pic3{
+    max-width: 75%;
+}
+.btn {
+    width: 7rem;
+}
+#reset {
+    margin-top: 1rem;
+    height: 4rem;
+}
+.pic3:hover, #pic2:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 500ms;
+    outline-style: none;
+}
